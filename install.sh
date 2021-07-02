@@ -69,6 +69,7 @@ mv getjswords.py ~/Might/nova/getjswords.py;
 wget https://github.com/tillson/git-hound/releases/download/v1.3/git-hound_1.3_Linux_x86_64.tar.gz;
 tar -xzvf git-hound_1.3_Linux_x86_64.tar.gz -C ~/Might/go/bin/ ;
 rm git-hound_1.3_Linux_x86_64.tar.gz;
+mv ~/Might/subdomains.txt ~/Might/go/bin/subdomains.txt;
 
 
 
