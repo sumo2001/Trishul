@@ -64,12 +64,13 @@ wget https://raw.githubusercontent.com/devanshbatham/ParamSpider/master/gf_profi
 mv potential.json ~/.gf/potential.json;
 wget https://gist.githubusercontent.com/KathanP19/d2cda2f99c0b60d64b76ee6039b37e47/raw/eb105a4de06502b2732df9d682c61189c3703685/jsvar.sh ;
 mv jsvar.sh ~/Might/nova/jsvar.sh;
-wget https://github.com/m4ll0k/Bug-Bounty-Toolz/blob/master/getjswords.py;
+wget https://raw.githubusercontent.com/m4ll0k/Bug-Bounty-Toolz/master/getjswords.py;
 mv getjswords.py ~/Might/nova/getjswords.py;
 wget https://github.com/tillson/git-hound/releases/download/v1.3/git-hound_1.3_Linux_x86_64.tar.gz;
 tar -xzvf git-hound_1.3_Linux_x86_64.tar.gz -C ~/Might/go/bin/ ;
 rm git-hound_1.3_Linux_x86_64.tar.gz;
-mv ~/Might/subdomains.txt ~/Might/go/bin/subdomains.txt;
+wget https://raw.githubusercontent.com/rbsec/dnscan/master/subdomains.txt;
+mv subdomains.txt ~/Might/go/bin/subdomains.txt;
 
 
 
