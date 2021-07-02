@@ -20,7 +20,7 @@ You will get a prompt if the installation was successful
 
 ```bash
 
-cd Might/
+cd ~/Might/
 ./run.sh -h
 
 Usage  :
