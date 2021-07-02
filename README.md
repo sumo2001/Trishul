@@ -31,7 +31,8 @@ Usage  :
          -h	Displays the usage details
 
 ```
-![image](https://user-images.githubusercontent.com/51809378/124332195-83629300-dbae-11eb-96d5-e4344ef2b2fa.png)
+![image](https://user-images.githubusercontent.com/51809378/124332270-bc9b0300-dbae-11eb-9f18-95c95093d0cf.png)
+
 
 
 
