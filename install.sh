@@ -1,3 +1,4 @@
+sudo apt update && sudo apt full-upgrade;
 sudo apt install git golang ruby python3 python3-pip libpcap-dev gcc make -y
 chmod 777 .cache/go-build; 
 echo "0x100%";
