@@ -29,16 +29,6 @@ for domain in $(cat $1); do
     echo '-----------------------------------------------------'
 # Finished Subdomain Bruteforcing
 
-# Performing Subdomain Takeover
-    echo '-----------------------------------------------------'
-    echo "${red} Performing : ${green} Subdomain Takeover ${reset}"
-    echo '-----------------------------------------------------'
-    ./takeover.sh $domain;
-    echo '-----------------------------------------------------'
-    echo "${red} Finished : ${green} Results are saved in ${results} folder ${reset}"
-    echo '-----------------------------------------------------'
-# Finished Subdomain Takeover
-
 # Performing Probing
     echo '-----------------------------------------------------'
     echo "${red} Performing : ${green} Probing ${reset}"
