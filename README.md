@@ -66,10 +66,10 @@ XSS Automation  | Vulnerable Pattern Search | Vulnerable Pattern Search
 Javascript Scan  | Javascript Scan | Parameter Discovery
 Directory Fuzzing  | Secret Finder | XSS Automation
 HeartBleed Scan  | Directory Fuzzing | GitHub Scanning
-- | CORS Scan |  FavIcon Hash Extraction
--  | HeartBleed Scan | Javascript Scan
--  | - | Secret Finder
--  | - | Directory Fuzzing
--  | - | CORS Scan
--  | - | HeartBleed Scan
+ - | CORS Scan |  FavIcon Hash Extraction
+ -  | HeartBleed Scan | Javascript Scan
+ -  | - | Secret Finder
+ -  | - | Directory Fuzzing
+ -  | - | CORS Scan
+ -  | - | HeartBleed Scan
 
