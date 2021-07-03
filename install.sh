@@ -14,7 +14,7 @@ echo    '888  888     888      X88 888  888 Y88b 888 888' ;
 echo    '888  888     888  888888P 888  888  "Y88888 888' ;  
 echo '';
       
-echo   '\e[0;101m' Automated and tested by Sumanth Dodda[iamcybermight] '&' Gowtham Chennavarupu $white '\e[0m';
+echo  -e '\e[0;101m' Automated and tested by Sumanth Dodda [iamcybermight] and Gowtham Chennavarupu $white '\e[0m';
 }
 logo
 
