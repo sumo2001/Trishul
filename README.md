@@ -1,10 +1,10 @@
-# Trishul
+# Trishul 🔱 
 
-Trishul is an ultimate collection framework to do recon
+☠️Trishul is an ultimate collection framework to do recon
 
 ## Installation
 
-This can be installed locally on your machine or an EC-2 Instance, As of now the tool supports any Debian-based distro
+This can be installed locally on your machine or an EC-2 Instance, As of now the tool supports any Debian-based distro 😃
 
 ```bash
 cd ~
@@ -36,5 +36,20 @@ Usage  :
 
 
 
-## Contributing
-Under Development
+## Features
+* XSS Check with payload automation
+* Heart Bleed Checker
+* Cross-Origin Resource Sharing Misconf Checker
+* Web Path Brute Forcer
+* Wayback Machine URL's
+* Weaponizing favicon.ico
+* GitHound - API keys
+* Scanning based on templates
+* Mining parameters from URL's
+* Fetching javascript files from domains
+* Patterns for SSRF,RCE,LFI,SQLi,SSTi,IDR,URL Redirection..etc 
+* Port Scanner
+* massdns
+* Crawls for API keys, Access Tokens,jwt,.
+* Domains and Sub-Domains
+
