@@ -20,8 +20,8 @@ logo
 
 
 
-red=`tput setaf 1`
-green=`tput setaf 3`
+red=`tput setaf 3`
+green=`tput setaf 1`
 reset=`tput sgr0`
 
 small_recon(){
