@@ -53,3 +53,23 @@ Usage  :
 * Crawls for API keys, Access Tokens,jwt,.
 * Domains and Sub-Domains
 
+
+Small Recon | Medium Recon | Large Recon
+| :---: | :---: | :---:
+Probing  | Subdomain Enumeration | Subdomain Enumeration
+Template Scanning with Nuclei  | Subdomain Bruteforcing | Subdomain Bruteforcing
+Port Scanning  | Probing | Probing
+URL Extraction  | Template Scanning with Nuclei | Template Scanning with Nuclei
+Vulnerable Pattern Search  | Port Scanning | Port Scanning
+Parameter Discovery  | URL Extraction | URL Extraction
+XSS Automation  | Vulnerable Pattern Search | Vulnerable Pattern Search
+Javascript Scan  | Javascript Scan | Parameter Discovery
+Directory Fuzzing  | Secret Finder | XSS Automation
+HeartBleed Scan  | Directory Fuzzing | GitHub Scanning
+- | CORS Scan |  FavIcon Hash Extraction
+-  | HeartBleed Scan | Javascript Scan
+-  | - | Secret Finder
+-  | - | Directory Fuzzing
+-  | - | CORS Scan
+-  | - | HeartBleed Scan
+
