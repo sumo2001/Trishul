@@ -1,3 +1,24 @@
+#bin/bash
+
+logo(){
+ 
+
+
+echo '8888888888                   888               888' ;       
+echo    '888          Y8P          888               888' ;       
+echo    '888                       888               888' ;        
+echo    '888  888d888 888 .d8888b  88888b.  888  888 888' ;        
+echo    '888  888P"   888 88K      888 "88b 888  888 888' ;        
+echo    '888  888     888 "Y8888b. 888  888 888  888 888' ;        
+echo    '888  888     888      X88 888  888 Y88b 888 888' ;        
+echo    '888  888     888  888888P 888  888  "Y88888 888' ;  
+echo '';
+      
+echo   '\e[0;101m' Automated and tested by Sumanth Dodda[iamcybermight] '&' Gowtham Chennavarupu $white '\e[0m';
+}
+logo
+
+
 sudo apt update -y && sudo apt full-upgrade -y;
 sudo apt install git golang ruby python3 python3-pip libpcap-dev gcc make -y
 echo "0x100%";
