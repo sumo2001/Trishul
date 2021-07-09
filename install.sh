@@ -54,6 +54,7 @@ echo ".-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-."
 echo "Successfully completed Part 1 Installation";
 echo ".-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-."
 
+mkdir ~/Might
 cp ~/go ~/Might/ -r ;
 cp ./Might/*.sh ~/Might/ -r;
 mkdir ~/nova;
