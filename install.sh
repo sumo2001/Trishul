@@ -55,6 +55,7 @@ echo "Successfully completed Part 1 Installation";
 echo ".-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-."
 
 cp ~/go ~/Might/ -r ;
+cp ./Might/*.sh ~/Might/ -r;
 mkdir ~/nova;
 mkdir ~/.gf
 git clone https://github.com/projectdiscovery/nuclei-templates ~/nova/nuclei-templates;
