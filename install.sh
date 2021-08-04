@@ -94,6 +94,8 @@ tar -xzvf git-hound_1.3_Linux_x86_64.tar.gz -C ~/Might/go/bin/ ;
 rm git-hound_1.3_Linux_x86_64.tar.gz;
 wget https://raw.githubusercontent.com/rbsec/dnscan/master/subdomains.txt;
 mv subdomains.txt ~/Might/go/bin/subdomains.txt;
+wget https://raw.githubusercontent.com/blechschmidt/massdns/master/lists/resolvers.txt;
+mv resolvers.txt ~/Might/
 
 
 
