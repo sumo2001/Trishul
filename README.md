@@ -1,4 +1,4 @@
-=# Trishul 🔱 
+# Trishul 🔱 
 
 ☠️Trishul is an ultimate collection framework to do recon
 
