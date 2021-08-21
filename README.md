@@ -1,4 +1,4 @@
-# Trishul 🔱 
+=# Trishul 🔱 
 
 ☠️Trishul is an ultimate collection framework to do recon
 
@@ -72,4 +72,10 @@ HeartBleed Scan  | Directory Fuzzing | GitHub Scanning
  \  | - | Directory Fuzzing
  \  | - | CORS Scan
  \  | - | HeartBleed Scan
+
+ ## Introduction to the features included:'
+ ### Port Scanning	:
+Port scanning is a method of determining which ports on a network are open and could be receiving or sending data. It is also a process for sending packets to specific ports on a host and analyzing responses to identify vulnerabilities
+ 
+####Work in Progess
 
