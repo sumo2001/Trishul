@@ -20,7 +20,7 @@ logo
 
 
 sudo apt update -y && sudo apt full-upgrade -y;
-sudo apt install git golang ruby python3 python3-pip libpcap-dev gcc make -y
+sudo apt install git golang-1.14 ruby python3 python3-pip libpcap-dev gcc make -y
 echo "0x100%";
 go get github.com/Ice3man543/SubOver;
 go get -u github.com/tomnomnom/gf;
