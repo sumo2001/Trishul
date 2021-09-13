@@ -25,34 +25,35 @@ rm -rf /usr/local/go;
 wget https://golang.org/dl/go1.14.15.linux-amd64.tar.gz;
 tar -C /usr/local -xzf go1.14.15.linux-amd64.tar.gz;
 rm go1.14.15.linux-amd64.tar.gz;
+
 echo "0x100%";
-go get github.com/Ice3man543/SubOver;
-go get -u github.com/tomnomnom/gf;
-go get -u github.com/tomnomnom/assetfinder;
-go get github.com/hakluke/hakcheckurl;
-go get github.com/hakluke/hakrawler;
+/usr/local/go/bin/go get github.com/Ice3man543/SubOver;
+/usr/local/go/bin/go get -u github.com/tomnomnom/gf;
+/usr/local/go/bin/go get -u github.com/tomnomnom/assetfinder;
+/usr/local/go/bin/go get github.com/hakluke/hakcheckurl;
+/usr/local/go/bin/go get github.com/hakluke/hakrawler;
 
 echo "Don't Panic, I am doing My Job";
 
-go get github.com/hakluke/hakrevdns;
-go get github.com/tomnomnom/hacks/waybackurls;
-go get -u -v github.com/lukasikic/subzy
-go install -v github.com/lukasikic/subzy;
+/usr/local/go/bin/go get github.com/hakluke/hakrevdns;
+/usr/local/go/bin/go get github.com/tomnomnom/hacks/waybackurls;
+/usr/local/go/bin/go get -u -v github.com/lukasikic/subzy
+/usr/local/go/bin/go install -v github.com/lukasikic/subzy;
 
 echo "Please Panic, I am hacking you ;)";
 
-go get github.com/haccer/subjack;
+/usr/local/go/bin/go get github.com/haccer/subjack;
 
-GO111MODULE=on go get -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder;
-GO111MODULE=on go get -v github.com/projectdiscovery/chaos-client/cmd/chaos;
-GO111MODULE=on go get -v github.com/hahwul/dalfox/v2;
-GO111MODULE=on go get -u -v github.com/lc/gau;
-GO111MODULE=on go get -u -v github.com/lc/subjs;
-GO111MODULE=on go get -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei;
-GO111MODULE=on go get -v github.com/projectdiscovery/naabu/v2/cmd/naabu;
-GO111MODULE=on go get -v github.com/projectdiscovery/httpx/cmd/httpx;
-GO111MODULE=on go get -v github.com/projectdiscovery/dnsx/cmd/dnsx;
-GO111MODULE=on go get -v github.com/projectdiscovery/shuffledns/cmd/shuffledns;
+GO111MODULE=on /usr/local/go/bin/go get -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder;
+GO111MODULE=on /usr/local/go/bin/go get -v github.com/projectdiscovery/chaos-client/cmd/chaos;
+GO111MODULE=on /usr/local/go/bin/go get -v github.com/hahwul/dalfox/v2;
+GO111MODULE=on /usr/local/go/bin/go get -u -v github.com/lc/gau;
+GO111MODULE=on /usr/local/go/bin/go get -u -v github.com/lc/subjs;
+GO111MODULE=on /usr/local/go/bin/go get -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei;
+GO111MODULE=on /usr/local/go/bin/go get -v github.com/projectdiscovery/naabu/v2/cmd/naabu;
+GO111MODULE=on /usr/local/go/bin/go get -v github.com/projectdiscovery/httpx/cmd/httpx;
+GO111MODULE=on /usr/local/go/bin/go get -v github.com/projectdiscovery/dnsx/cmd/dnsx;
+GO111MODULE=on /usr/local/go/bin/go get -v github.com/projectdiscovery/shuffledns/cmd/shuffledns;
 
 echo ".-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-."
 echo "Successfully completed Part 1 Installation";
