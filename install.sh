@@ -22,7 +22,6 @@ logo
 sudo apt update -y && sudo apt full-upgrade -y;
 sudo apt install git wget ruby python3 python3-pip libpcap-dev gcc make -y
 rm -rf /usr/local/go;
-wget https://golang.org/dl/go1.14.15.linux-amd64.tar.gz;
 tar -C /usr/local -xzf go1.14.15.linux-amd64.tar.gz;
 rm go1.14.15.linux-amd64.tar.gz;
 
