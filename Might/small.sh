@@ -1,4 +1,4 @@
-gpath=./go/bin/
+gpath=~/go/bin/
 results=./Results/$domain
 red=`tput setaf 1`
 green=`tput setaf 2`
