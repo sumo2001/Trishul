@@ -1,5 +1,5 @@
 gpath=./go/bin/
-results=~/home/$USER/Might/Results/$domain
+results=./Results/$domain
 red=`tput setaf 1`
 green=`tput setaf 2`
 reset=`tput sgr0`
