@@ -74,8 +74,26 @@ HeartBleed Scan  | Directory Fuzzing | GitHub Scanning
  \  | - | HeartBleed Scan
 
  ## Introduction to the features included:'
- ### Port Scanning	:
+ ### Port Scanning:
 Port scanning is a method of determining which ports on a network are open and could be receiving or sending data. It is also a process for sending packets to specific ports on a host and analyzing responses to identify vulnerabilities
- 
-####Work in Progess
+### Subdomain Enumeration
+### Subdomain Bruteforcing 
+### Probing
+### URL Extraction
+### XSS Automation
+### Vulnerable Pattern Search
+### Javascript Scan
+### Parameter Discovery
+### Template Scanning with Nuclei
+### Secret Finder
+### GitHub Scanning
+### FavIcon Hash Extraction
+### CORS Scan
+### HeartBleed Scan
+### Javascript Scan
+
+
+
+
+
 
