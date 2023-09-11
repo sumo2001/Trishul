@@ -8,7 +8,7 @@ This can be installed locally on your machine or an EC-2 Instance, As of now the
 
 ```bash
 cd ~
-git https://github.com/sumo2001/Trishul.git
+git clone https://github.com/sumo2001/Trishul.git
 mv ~/Trishul/* ~/
 chmod +x install.sh
 ./install.sh
