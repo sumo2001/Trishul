@@ -12,8 +12,7 @@ for domain in $(cat $1); do
 # Performing Probing
     echo '-----------------------------------------------------'
     echo "${red} Performing : ${green} Probing ${reset}"
-    echo '-----------------------------------------------------'
-    ./probe_single.sh $domain;
+   ./probe_single.sh $domain;
     echo '-----------------------------------------------------'
     echo "${red} Finished : ${green} Results are saved in ${results} folder ${reset}"
     echo '-----------------------------------------------------'
@@ -23,7 +22,7 @@ for domain in $(cat $1); do
     echo '-----------------------------------------------------'
     echo "${red} Performing : ${green} Template Scanning with Nuclei ${reset}"
     echo '-----------------------------------------------------'
-    ./nuclear.sh $domain;
+     ./nuclear.sh $domain;
     echo '-----------------------------------------------------'
     echo "${red} Finished : ${green} Results are saved in ${results} folder ${reset}"
     echo '-----------------------------------------------------'
@@ -83,7 +82,7 @@ for domain in $(cat $1); do
     echo '-----------------------------------------------------'
     echo "${red} Performing : ${green} Javascript Scan ${reset}"
     echo '-----------------------------------------------------'
-    ./jscan.sh $domain;
+   ./jscan.sh $domain;
     echo '-----------------------------------------------------'
     echo "${red} Finished : ${green} Results are saved in ${results} folder ${reset}"
     echo '-----------------------------------------------------'
