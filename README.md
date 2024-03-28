@@ -1,7 +1,7 @@
 # Trishul 🔱 
 
 ☠️Trishul is an ultimate collection framework to do recon
-
+Automated by Sumanth Dodda and Nikhil Pinnamaneni
 ## Installation
 
 This can be installed locally on your machine or an EC-2 Instance, As of now the tool supports any Debian-based distro 😃
